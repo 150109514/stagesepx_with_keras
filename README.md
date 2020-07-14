@@ -190,10 +190,9 @@ App启动页性能优化。这几乎是每个App开发团队绕不开的工作�
 ![](https://github.com/150109514/stagesepx_with_keras/blob/master/image_for_readme/RecordScreen_param.jpg)  
 
 - abd录屏。使用adb录屏，可以为后期通过Appium等方法，实现自动化批量录制视频提供保障。
-
-		使用adb方法录制一个10s的视频
 	
 	```
+	:: 使用adb方法录制一个10s的视频
 	adb shell screenrecord  --time-limit 10 /sdcard/demo.mp4
 	```
 
